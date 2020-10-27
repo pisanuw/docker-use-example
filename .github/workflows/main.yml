@@ -1,0 +1,15 @@
+name: Docker User
+
+on: [push]
+
+jobs:
+  build:
+
+    container: pisanuw/csslab
+
+    steps:
+    
+    - uses: actions/checkout@v2
+
+    - name: Run docker-user.sh file
+      run: ./docker-user.sh
