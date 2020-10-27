@@ -1,5 +1,5 @@
 #!/bin/bash
 
-whcih clang-tidy
+which clang-tidy
 
 exit
